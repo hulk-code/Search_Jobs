@@ -1,11 +1,11 @@
-import React from "react";
+
 import logo from '../../assets/logo/CareerHub.png'
 
 const Footer = () => {
   return (
     <footer
       className="footer footer-center bg-slate-900
-     text-red-200 rounded p-10 flex justify-around"
+     text-red-200 rounded p-10 lg:flex justify-around"
     >
       <div>
   <img className="bg-red-300 border rounded-md" src={logo} alt="" />
