@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../../assets/logo/CareerHub.png";
 
 const Header = () => {
@@ -51,7 +51,7 @@ const Header = () => {
         <ul className="menu menu-horizontal px-1">{link}</ul>
       </div>
       <div className="navbar-end">
-        <a
+        <Link to='/jobs'> <a
           href="#_"
           className="relative px-5 py-3 overflow-hidden font-medium text-gray-600 bg-gray-100 border border-gray-100 rounded-lg shadow-inner group"
         >
@@ -64,6 +64,9 @@ const Header = () => {
           Star Applying
           </span>
         </a>
+        
+        </Link>
+       
       </div>
     </div>
   );
